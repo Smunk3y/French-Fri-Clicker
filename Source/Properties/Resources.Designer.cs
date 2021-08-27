@@ -63,16 +63,6 @@ namespace French_Fri_Clicker.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap BackroundWithThesavebutton {
-            get {
-                object obj = ResourceManager.GetObject("BackroundWithThesavebutton", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap Click_image_450 {
             get {
                 object obj = ResourceManager.GetObject("Click image 450", resourceCulture);
@@ -83,9 +73,9 @@ namespace French_Fri_Clicker.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap frenchfribackrounddonebuttonsfix2 {
+        internal static System.Drawing.Bitmap frenchfribackrounddonebuttonsextra {
             get {
-                object obj = ResourceManager.GetObject("frenchfribackrounddonebuttonsfix2", resourceCulture);
+                object obj = ResourceManager.GetObject("frenchfribackrounddonebuttonsextra", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -96,6 +86,26 @@ namespace French_Fri_Clicker.Properties {
         internal static System.Drawing.Bitmap Friesperclickmenubaby {
             get {
                 object obj = ResourceManager.GetObject("Friesperclickmenubaby", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Friespowerupmenu20000 {
+            get {
+                object obj = ResourceManager.GetObject("Friespowerupmenu20000", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap FriMainbackround {
+            get {
+                object obj = ResourceManager.GetObject("FriMainbackround", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -116,6 +126,46 @@ namespace French_Fri_Clicker.Properties {
         internal static System.Drawing.Bitmap Settingsmenu {
             get {
                 object obj = ResourceManager.GetObject("Settingsmenu", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Sold {
+            get {
+                object obj = ResourceManager.GetObject("Sold", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Stock_Market_Down {
+            get {
+                object obj = ResourceManager.GetObject("Stock Market Down", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Stock_Market_German {
+            get {
+                object obj = ResourceManager.GetObject("Stock Market German", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Stock_Market_Up {
+            get {
+                object obj = ResourceManager.GetObject("Stock Market Up", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -20,11 +20,66 @@ namespace French_Fri_Clicker
        public static long cheattoggleopen = 0;
        public static string lastsave = ("No Save");
        public static long justloadsave = 0;
+       public static long upgradesbought = 0;
+       public static long upgrademenu = 1;
 
-        //Fries Per Click Menu Vars
+        //Stocks
+        public static long stockrefersh = 0;
+        public static long timersecs = 60;
+        public static long Stockbuyvarvar = 1;
+        public static long Stockbuyvar = 1;
+        public static string stockamtbuy = "0";
+
+        //timer values
+        public static long timerpotatopotfps = 40;
+        public static long timersmalllfarm = 40;
 
 
+        //Purchases for the power ups
+        public static long powerpotatopotfps = 0;
+        public static long powerpotatopotperc = 0;
+        public static long powerSmallfarmfps = 0;
+        public static long powerSmallfarmperc = 0;
+        public static long powerGreenhousefps = 0;
+        public static long powerGreenhouseperc = 0;
+        public static long powerfarmfps = 0;
+        public static long powerfarmperc = 0;
+        public static long powerBoxOPotatosfps = 0;
+        public static long powerBoxOPotatosperc = 0;
+        public static long powerSackOPotatosfps = 0;
+        public static long powerSackOPotatoperc = 0;
+        public static long powerPotatoCratefps = 0;
+        public static long powerPotatoCrateperc = 0;
+        public static long powerPotatoShippingboatfps = 0;
+        public static long powerPotatoShippingboatperc = 0;
 
+        //price for the power ups
+        public static long powerpricepotatopotfps = 400;
+        public static long powerpricepotatopotperc = 1200;
+        public static long powerpriceSmallfarmfps = 2000;
+        public static long powerpriceSmallfarmperc = 3600;
+        public static long powerpriceGreenhousefps = 5000;
+        public static long powerpriceGreenhouseperc = 7000;
+        public static long powerpricefarmfps = 5000;
+        public static long powerpricefarmperc = 7000;
+        public static long powerpriceBoxOPotatosfps = 22000;
+        public static long powerpriceBoxOPotatosperc = 27500;
+        public static long powerpriceSackOFps = 50000;
+        public static long powerpriceSackOperc = 65000;
+        public static long powerpricePotatoCratefps = 125000;
+        public static long powerpricePotatoCrateperc = 160000;
+        public static long powerpricePotatoShipfps = 400000;
+        public static long powerpricePotatoShipperc = 700000;
+
+        //fps adds
+        public static long fpsPotatopot = 1;
+        public static long fpssmallfarm = 2;
+        public static long fpsgreenhouse = 5;
+        public static long fpsfarm = 6;
+        public static long fpsBoxOPotatos = 15;
+        public static long fpsSackOPotatos = 50;
+        public static long fpsPotatoCrate = 30;
+        public static long fpsPotatoShippingCrate = 500;
 
         //price increase rates
         //all 30% might change
@@ -52,6 +107,33 @@ namespace French_Fri_Clicker
         public static long incpriceFrenchfriStand = 150000000;
         public static long incpriceFrenchfritrain = 300000000;
         public static long incpriceFrenchfriknife = 375000000;
+
+        //price increase rates for the double inc
+        //all 20% might change
+        public static long incincpricePotatopot = 10;
+        public static long incincpriceSmallfarm = 20;
+        public static long incincpriceGreenhouse = 40;
+        public static long incincpriceFarm = 100;
+        public static long incincpriceBoxo = 250;
+        public static long incincpriceSacko = 2000;
+        public static long incincpricePotatocrate = 10000;
+        public static long incincpriceShippingboat = 25000;
+        //public static long incpriceHandpotatocutter = 75000;
+       // public static long incpriceDeepfryer = 150000;
+       // public static long incpriceOvenfries = 240000;
+      //  public static long incpriceSmallfries = 360000;
+      //  public static long incpriceFrenchFri = 750000;
+      //  public static long incpricebagofries = 1800000;
+     //   public static long incpricelargedeepfryer = 4500000;
+      ///  public static long incpricebarrelofries = 7500000;
+      //  public static long incpriceThefritruck = 12000000;
+      //  public static long incpricefrenchfriplane = 24000000;
+      ///  public static long incpriceGiantpotatosilo = 37500000;
+      //  public static long incpricePotatoblimp = 52500000;
+      //  public static long incpricePotatofactory = 75000000;
+      //  public static long incpriceFrenchfriStand = 150000000;
+      //  public static long incpriceFrenchfritrain = 300000000;
+      //  public static long incpriceFrenchfriknife = 375000000;
 
         //the auto ones that do it for yo
         public static long amtPotatopot = 0;
@@ -81,6 +163,8 @@ namespace French_Fri_Clicker
 
 
         //the adds for the big ones
+        public static long frigreenhouse = 0;
+        public static long friSmallfarm = 0;
         public static long friFarm = 0;
         public static long friBoxopotato = 0;
         public static long friSackopotato = 0;
@@ -186,6 +270,11 @@ namespace French_Fri_Clicker
         public static long incTopazhand = 90000000;
         public static long incRubyhand = 210000000;
         public static long incSapphirehand = 420000000;
+
+
+
+
+        
     }
 
 

@@ -12,22 +12,23 @@
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
-    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
     <PublishUrl>publish\</PublishUrl>
     <Install>true</Install>
-    <InstallFrom>Disk</InstallFrom>
-    <UpdateEnabled>false</UpdateEnabled>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
     <UpdateMode>Foreground</UpdateMode>
     <UpdateInterval>7</UpdateInterval>
     <UpdateIntervalUnits>Days</UpdateIntervalUnits>
     <UpdatePeriodically>false</UpdatePeriodically>
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
+    <InstallUrl>https://github.com/Rhys-Grover/French-Fri-Clicker/releases/download/V0.7/French.Fri.Clicker.exe/</InstallUrl>
     <UpdateUrl>https://github.com/Rhys-Grover/French-Fri-Clicker/releases/</UpdateUrl>
+    <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
     <WebPage>publish.htm</WebPage>
-    <AutorunEnabled>true</AutorunEnabled>
-    <ApplicationRevision>3</ApplicationRevision>
-    <ApplicationVersion>1.2.0.%2a</ApplicationVersion>
+    <ApplicationRevision>6</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
     <BootstrapperEnabled>true</BootstrapperEnabled>
@@ -93,6 +94,12 @@
     <Compile Include="aMain Meny.Designer.cs">
       <DependentUpon>aMain Meny.cs</DependentUpon>
     </Compile>
+    <Compile Include="Powerupmenu1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Powerupmenu1.Designer.cs">
+      <DependentUpon>Powerupmenu1.cs</DependentUpon>
+    </Compile>
     <Compile Include="SaveGame.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -100,6 +107,12 @@
       <DependentUpon>SaveGame.cs</DependentUpon>
     </Compile>
     <Compile Include="Savetest.cs" />
+    <Compile Include="StockMarketpg1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StockMarketpg1.Designer.cs">
+      <DependentUpon>StockMarketpg1.cs</DependentUpon>
+    </Compile>
     <Compile Include="xCheatmenu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -172,8 +185,14 @@
     <EmbeddedResource Include="aMain Meny.resx">
       <DependentUpon>aMain Meny.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Powerupmenu1.resx">
+      <DependentUpon>Powerupmenu1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="SaveGame.resx">
       <DependentUpon>SaveGame.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StockMarketpg1.resx">
+      <DependentUpon>StockMarketpg1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="xCheatmenu.resx">
       <DependentUpon>xCheatmenu.cs</DependentUpon>
@@ -235,7 +254,25 @@
     <Content Include="Bitmap1.bmp" />
     <Content Include="Click image 450.png" />
     <Content Include="French Fri Test 1.ico" />
+    <None Include="Resources\Stock Market Up.bmp" />
+    <None Include="Resources\Stock Market German.bmp" />
+    <None Include="Resources\Stock Market Down.bmp" />
+    <None Include="Resources\Stock Market French.bmp" />
+    <None Include="Resources\frenchfribackrounddonebuttonsextra.bmp" />
     <Content Include="Resources\frenchfribackrounddonebuttonsfix2.bmp" />
+    <None Include="Resources\Sold1.png" />
+    <None Include="Resources\Sold.png" />
+    <None Include="Resources\Powerupmenutest1.jpg" />
+    <None Include="Resources\FriMainbackround.bmp" />
+    <None Include="Resources\Friespowerupmenu.bmp" />
+    <None Include="Resources\Friespowerupmenu11.bmp" />
+    <None Include="Resources\Friespowerupmenu - Copy.bmp" />
+    <None Include="Resources\Friespowerupmenu1999.bmp" />
+    <None Include="Resources\Friespowerupmenu20000.bmp" />
+    <Content Include="Resources\Mainbackround.bmp" />
+    <None Include="Resources\Mainbackround1.bmp" />
+    <None Include="Resources\Friespowerupmenu1.bmp" />
+    <None Include="Resources\MainMenuImagePowerMenu.bmp" />
     <None Include="Resources\SaveMenu3.bmp" />
     <None Include="Resources\BackroundWithThesavebutton.bmp" />
     <None Include="Resources\Settingsmenu.bmp" />

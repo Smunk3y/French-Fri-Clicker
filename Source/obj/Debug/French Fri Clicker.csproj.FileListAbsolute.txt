@@ -1,26 +1,55 @@
-C:\Users\micro\Documents\GitHub\French-Fri-Clicker\Source\bin\Debug\French Fri Clicker.exe.config
-C:\Users\micro\Documents\GitHub\French-Fri-Clicker\Source\bin\Debug\French Fri Clicker.exe.manifest
-C:\Users\micro\Documents\GitHub\French-Fri-Clicker\Source\bin\Debug\French Fri Clicker.application
-C:\Users\micro\Documents\GitHub\French-Fri-Clicker\Source\bin\Debug\French Fri Clicker.exe
-C:\Users\micro\Documents\GitHub\French-Fri-Clicker\Source\bin\Debug\French Fri Clicker.pdb
-C:\Users\micro\Documents\GitHub\French-Fri-Clicker\Source\obj\Debug\French Fri Clicker.csprojAssemblyReference.cache
-C:\Users\micro\Documents\GitHub\French-Fri-Clicker\Source\obj\Debug\French_Fri_Clicker.Form1.resources
-C:\Users\micro\Documents\GitHub\French-Fri-Clicker\Source\obj\Debug\French_Fri_Clicker.SaveGame.resources
-C:\Users\micro\Documents\GitHub\French-Fri-Clicker\Source\obj\Debug\French_Fri_Clicker.xCheatmenu.resources
-C:\Users\micro\Documents\GitHub\French-Fri-Clicker\Source\obj\Debug\French_Fri_Clicker.Quitform.resources
-C:\Users\micro\Documents\GitHub\French-Fri-Clicker\Source\obj\Debug\French_Fri_Clicker.FriesperClick.resources
-C:\Users\micro\Documents\GitHub\French-Fri-Clicker\Source\obj\Debug\French_Fri_Clicker.AutoClicker.resources
-C:\Users\micro\Documents\GitHub\French-Fri-Clicker\Source\obj\Debug\French_Fri_Clicker.NotEnoughFries.resources
-C:\Users\micro\Documents\GitHub\French-Fri-Clicker\Source\obj\Debug\French_Fri_Clicker.ClickperSecond.resources
-C:\Users\micro\Documents\GitHub\French-Fri-Clicker\Source\obj\Debug\French_Fri_Clicker.Properties.Resources.resources
-C:\Users\micro\Documents\GitHub\French-Fri-Clicker\Source\obj\Debug\French_Fri_Clicker.Settingsmenu.resources
-C:\Users\micro\Documents\GitHub\French-Fri-Clicker\Source\obj\Debug\French_Fri_Clicker.xxCheatFPC.resources
-C:\Users\micro\Documents\GitHub\French-Fri-Clicker\Source\obj\Debug\French_Fri_Clicker.xxCheatFPS.resources
-C:\Users\micro\Documents\GitHub\French-Fri-Clicker\Source\obj\Debug\French_Fri_Clicker.xxCheatFries.resources
-C:\Users\micro\Documents\GitHub\French-Fri-Clicker\Source\obj\Debug\French_Fri_Clicker.xxCheatTogle.resources
-C:\Users\micro\Documents\GitHub\French-Fri-Clicker\Source\obj\Debug\French Fri Clicker.csproj.GenerateResource.cache
-C:\Users\micro\Documents\GitHub\French-Fri-Clicker\Source\obj\Debug\French Fri Clicker.csproj.CoreCompileInputs.cache
-C:\Users\micro\Documents\GitHub\French-Fri-Clicker\Source\obj\Debug\French Fri Clicker.exe.manifest
-C:\Users\micro\Documents\GitHub\French-Fri-Clicker\Source\obj\Debug\French Fri Clicker.application
-C:\Users\micro\Documents\GitHub\French-Fri-Clicker\Source\obj\Debug\French Fri Clicker.exe
-C:\Users\micro\Documents\GitHub\French-Fri-Clicker\Source\obj\Debug\French Fri Clicker.pdb
+C:\French Fri Game\French Fri Clicker\bin\Debug\French Fri Clicker.exe.config
+C:\French Fri Game\French Fri Clicker\bin\Debug\French Fri Clicker.exe.manifest
+C:\French Fri Game\French Fri Clicker\bin\Debug\French Fri Clicker.application
+C:\French Fri Game\French Fri Clicker\bin\Debug\French Fri Clicker.exe
+C:\French Fri Game\French Fri Clicker\bin\Debug\French Fri Clicker.pdb
+C:\French Fri Game\French Fri Clicker\obj\Debug\French Fri Clicker.csprojAssemblyReference.cache
+C:\French Fri Game\French Fri Clicker\obj\Debug\French_Fri_Clicker.Form1.resources
+C:\French Fri Game\French Fri Clicker\obj\Debug\French_Fri_Clicker.SaveGame.resources
+C:\French Fri Game\French Fri Clicker\obj\Debug\French_Fri_Clicker.xCheatmenu.resources
+C:\French Fri Game\French Fri Clicker\obj\Debug\French_Fri_Clicker.Quitform.resources
+C:\French Fri Game\French Fri Clicker\obj\Debug\French_Fri_Clicker.FriesperClick.resources
+C:\French Fri Game\French Fri Clicker\obj\Debug\French_Fri_Clicker.AutoClicker.resources
+C:\French Fri Game\French Fri Clicker\obj\Debug\French_Fri_Clicker.NotEnoughFries.resources
+C:\French Fri Game\French Fri Clicker\obj\Debug\French_Fri_Clicker.ClickperSecond.resources
+C:\French Fri Game\French Fri Clicker\obj\Debug\French_Fri_Clicker.Properties.Resources.resources
+C:\French Fri Game\French Fri Clicker\obj\Debug\French_Fri_Clicker.Settingsmenu.resources
+C:\French Fri Game\French Fri Clicker\obj\Debug\French_Fri_Clicker.xxCheatFPC.resources
+C:\French Fri Game\French Fri Clicker\obj\Debug\French_Fri_Clicker.xxCheatFPS.resources
+C:\French Fri Game\French Fri Clicker\obj\Debug\French_Fri_Clicker.xxCheatFries.resources
+C:\French Fri Game\French Fri Clicker\obj\Debug\French_Fri_Clicker.xxCheatTogle.resources
+C:\French Fri Game\French Fri Clicker\obj\Debug\French Fri Clicker.csproj.GenerateResource.cache
+C:\French Fri Game\French Fri Clicker\obj\Debug\French Fri Clicker.csproj.CoreCompileInputs.cache
+C:\French Fri Game\French Fri Clicker\obj\Debug\French Fri Clicker.exe.manifest
+C:\French Fri Game\French Fri Clicker\obj\Debug\French Fri Clicker.application
+C:\French Fri Game\French Fri Clicker\obj\Debug\French Fri Clicker.exe
+C:\French Fri Game\French Fri Clicker\obj\Debug\French Fri Clicker.pdb
+C:\French Fri Game\French Fri Clicker\obj\Debug\French_Fri_Clicker.Powerupmenu.resources
+F:\French Fri Game\French Fri Clicker\bin\Debug\French Fri Clicker.exe.config
+F:\French Fri Game\French Fri Clicker\bin\Debug\French Fri Clicker.exe.manifest
+F:\French Fri Game\French Fri Clicker\bin\Debug\French Fri Clicker.application
+F:\French Fri Game\French Fri Clicker\bin\Debug\French Fri Clicker.exe
+F:\French Fri Game\French Fri Clicker\bin\Debug\French Fri Clicker.pdb
+F:\French Fri Game\French Fri Clicker\obj\Debug\French Fri Clicker.csprojAssemblyReference.cache
+F:\French Fri Game\French Fri Clicker\obj\Debug\French_Fri_Clicker.Form1.resources
+F:\French Fri Game\French Fri Clicker\obj\Debug\French_Fri_Clicker.Powerupmenu.resources
+F:\French Fri Game\French Fri Clicker\obj\Debug\French_Fri_Clicker.SaveGame.resources
+F:\French Fri Game\French Fri Clicker\obj\Debug\French_Fri_Clicker.xCheatmenu.resources
+F:\French Fri Game\French Fri Clicker\obj\Debug\French_Fri_Clicker.Quitform.resources
+F:\French Fri Game\French Fri Clicker\obj\Debug\French_Fri_Clicker.FriesperClick.resources
+F:\French Fri Game\French Fri Clicker\obj\Debug\French_Fri_Clicker.AutoClicker.resources
+F:\French Fri Game\French Fri Clicker\obj\Debug\French_Fri_Clicker.NotEnoughFries.resources
+F:\French Fri Game\French Fri Clicker\obj\Debug\French_Fri_Clicker.ClickperSecond.resources
+F:\French Fri Game\French Fri Clicker\obj\Debug\French_Fri_Clicker.Properties.Resources.resources
+F:\French Fri Game\French Fri Clicker\obj\Debug\French_Fri_Clicker.Settingsmenu.resources
+F:\French Fri Game\French Fri Clicker\obj\Debug\French_Fri_Clicker.xxCheatFPC.resources
+F:\French Fri Game\French Fri Clicker\obj\Debug\French_Fri_Clicker.xxCheatFPS.resources
+F:\French Fri Game\French Fri Clicker\obj\Debug\French_Fri_Clicker.xxCheatFries.resources
+F:\French Fri Game\French Fri Clicker\obj\Debug\French_Fri_Clicker.xxCheatTogle.resources
+F:\French Fri Game\French Fri Clicker\obj\Debug\French Fri Clicker.csproj.GenerateResource.cache
+F:\French Fri Game\French Fri Clicker\obj\Debug\French Fri Clicker.csproj.CoreCompileInputs.cache
+F:\French Fri Game\French Fri Clicker\obj\Debug\French Fri Clicker.exe.manifest
+F:\French Fri Game\French Fri Clicker\obj\Debug\French Fri Clicker.application
+F:\French Fri Game\French Fri Clicker\obj\Debug\French Fri Clicker.exe
+F:\French Fri Game\French Fri Clicker\obj\Debug\French Fri Clicker.pdb
+F:\French Fri Game\French Fri Clicker\obj\Debug\French_Fri_Clicker.StockMarketpg1.resources

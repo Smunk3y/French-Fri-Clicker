@@ -140,8 +140,19 @@ namespace French_Fri_Clicker
             {
                 label_fpc.Text = Globalv.FPC.ToString();
             }
+            
+            if(timecnt % 40 == 0)
+            {
+                Globalv.timersecs = Globalv.timersecs - 1;
 
-            if (timecnt % 40 == 0)
+                if (Globalv.timersecs == 0)
+                {
+                    Globalv.stockrefersh = 1;
+                    Globalv.timersecs = 60;
+                }
+            }
+
+            if (timecnt % 20 == 0)
             {
                 Globalv.fri += Globalv.friBoxopotato;
             }
@@ -215,9 +226,9 @@ namespace French_Fri_Clicker
                 Globalv.fri += Globalv.friFarm;
             }
 
-            if (timecnt % 20 == 0)
+            if (timecnt % Globalv.timersmalllfarm == 0)
             {
-                Globalv.fri += Globalv.amtSmallfarm;
+                Globalv.fri += Globalv.friSmallfarm;
             }
 
             if (timecnt % 20 == 0)
@@ -225,7 +236,7 @@ namespace French_Fri_Clicker
                 Globalv.fri += Globalv.friDeepfryer;
             }
 
-            if (timecnt % 40 == 0)
+            if (timecnt % Globalv.timerpotatopotfps == 0)
             {
                 Globalv.fri += Globalv.amtPotatopot;
             }
@@ -282,7 +293,7 @@ namespace French_Fri_Clicker
 
             if (timecnt % 8 == 0)
             {
-                Globalv.fri += Globalv.amtGreenhouse;
+                Globalv.fri += Globalv.frigreenhouse;
             }
 
             if (timecnt % 1 == 0)
@@ -293,6 +304,18 @@ namespace French_Fri_Clicker
             if (timecnt % 1 == 0)
             {
                 Globalv.fri += Globalv.friPotatofactory;
+            }
+
+            if (timecnt % 4 == 0)
+            {
+                label_fpsPotatopot.Text = Globalv.fpsPotatopot.ToString();
+                label_fpsSmallFarm.Text = Globalv.fpssmallfarm.ToString();
+                label_fpsGreenhouse.Text = Globalv.fpsgreenhouse.ToString();
+                label_fpsBoxoPotatos.Text = (Globalv.fpsBoxOPotatos * 2 ).ToString();
+                label_fpsSackopotatos.Text = (Globalv.fpsSackOPotatos * 4).ToString();
+                label_fpsFarm.Text = (Globalv.fpsfarm * 2).ToString();
+                label_fpsPotatocrate.Text = (Globalv.fpsPotatoCrate * 40).ToString();
+                label_fpsPotatoShipingboat.Text = (Globalv.fpsPotatoShippingCrate * 5).ToString();
             }
 
             if (timecnt % 8 == 0)
@@ -323,20 +346,20 @@ namespace French_Fri_Clicker
                 Globalv.fri += Globalv.friSmallfries;
             }
 
-            if (timecnt % 40 == 0)
-            {
-                if (clicksonfries >= 20)
-                {
-                    Globalv.fri = 0;
-                    AutoClicker F4 = new AutoClicker();
-                    F4.Show();
-                    clicksonfries = 0;
-               }
-                else
-               {
-                 clicksonfries = 0;
-                }
-            }
+            //if (timecnt % 40 == 0)
+            //{
+            //    if (clicksonfries >= 20)
+            //    {
+            //       Globalv.fri = 0;
+            //        AutoClicker F4 = new AutoClicker();
+            //        F4.Show();
+            //        clicksonfries = 0;
+            //   }
+            ///    else
+            //   {
+            //     clicksonfries = 0;
+            //    }
+            //}
 
             if(timecnt % 120 == 0)
             {
@@ -387,13 +410,13 @@ namespace French_Fri_Clicker
                 if (Globalv.fri >= Globalv.pricePotatopot)
                 {
                 Globalv.amtPotatopot += 1;
-                    Globalv.FPS += 1;
+                    Globalv.FPS += Globalv.fpsPotatopot;
                     Globalv.fri -= Globalv.pricePotatopot;
                 Globalv.pricePotatopot += Globalv.incpricePotatopot;
                     label_FPS.Text = Globalv.FPS.ToString();
                     label_amtofPp.Text = Globalv.amtPotatopot.ToString();
                     label_pricePotatopot.Text = Globalv.pricePotatopot.ToString();
-                Globalv.incpricePotatopot += 15;
+                Globalv.incpricePotatopot += Globalv.incincpricePotatopot;
 
                 }
                 else
@@ -412,13 +435,14 @@ namespace French_Fri_Clicker
                 if (Globalv.fri >= Globalv.priceSmallfarm)
                 {
                 Globalv.amtSmallfarm += 1;
+                Globalv.friSmallfarm += Globalv.fpssmallfarm;
                     Globalv.fri -= Globalv.priceSmallfarm;
-                    Globalv.FPS += 2;
-                Globalv.priceSmallfarm += Globalv.incpriceSmallfarm;
+                    Globalv.FPS += Globalv.fpssmallfarm;
+                    Globalv.priceSmallfarm += Globalv.incpriceSmallfarm;
                     label_FPS.Text = Globalv.FPS.ToString();
                     label_priceofSmall.Text = Globalv.priceSmallfarm.ToString();
                     label_amtofsmallfarm.Text = Globalv.amtSmallfarm.ToString();
-                Globalv.incpriceSmallfarm += 30;
+                Globalv.incpriceSmallfarm += Globalv.incincpriceSmallfarm;
                 }
                 else
                 {
@@ -436,14 +460,14 @@ namespace French_Fri_Clicker
                 if (Globalv.fri >= Globalv.priceFarm)
                 {
                 Globalv.amtFarm += 1;
-                Globalv.friFarm += 6;
+                Globalv.friFarm += Globalv.fpsfarm;
                     Globalv.fri -= Globalv.priceFarm;
-                    Globalv.FPS += 12;
+                    Globalv.FPS += (Globalv.fpsfarm * 2);
                 Globalv.priceFarm += Globalv.incpriceFarm;
                     label_FPS.Text = Globalv.FPS.ToString();
                     label_priceofFarm.Text = Globalv.priceFarm.ToString();
                     label_amtoffarm.Text = Globalv.amtFarm.ToString();
-                Globalv.incpriceFarm += 150;
+                Globalv.incpriceFarm += Globalv.incincpriceFarm;
                 }
                 else
                 {
@@ -461,14 +485,14 @@ namespace French_Fri_Clicker
                 if (Globalv.fri >= Globalv.priceBoxopotato)
                 {
                 Globalv.amtBoxpotato += 1;
-                Globalv.friBoxopotato += 15;
+                Globalv.friBoxopotato += (Globalv.fpsBoxOPotatos * 2);
                     Globalv.fri -= Globalv.priceBoxopotato;
-                    Globalv.FPS += 30;
+                    Globalv.FPS += Globalv.fpsBoxOPotatos;
                 Globalv.priceBoxopotato += Globalv.incpriceBoxo;
                     label_FPS.Text = Globalv.FPS.ToString();
                     label_priceofboxo.Text = Globalv.priceBoxopotato.ToString();
                     label_amtofbox.Text = Globalv.amtBoxpotato.ToString();
-                Globalv.incpriceBoxo += 375;
+                Globalv.incpriceBoxo += Globalv.incincpriceBoxo;
                 }
                 else
                 {
@@ -487,12 +511,12 @@ namespace French_Fri_Clicker
                 {
                 Globalv.amtGreenhouse += 1;
                     Globalv.fri -= Globalv.priceGreenhouse;
-                    Globalv.FPS += 5;
+                    Globalv.FPS += Globalv.fpsgreenhouse;
                 Globalv.priceGreenhouse += Globalv.incpriceGreenhouse;
                     label_FPS.Text = Globalv.FPS.ToString();
                     label_priceofGreen.Text = Globalv.priceGreenhouse.ToString();
                     label_amtofgreenhuse.Text = Globalv.amtGreenhouse.ToString();
-                Globalv.incpriceGreenhouse += 60;
+                Globalv.incpriceGreenhouse += Globalv.incincpriceGreenhouse;
                 }
                 else
                 {
@@ -511,13 +535,13 @@ namespace French_Fri_Clicker
                 {
                 Globalv.amtSackopotato += 1;
                     Globalv.fri -= Globalv.priceSackopotato;
-                    Globalv.FPS += 200;
-                Globalv.friSackopotato += 50;
+                    Globalv.FPS += (Globalv.fpsSackOPotatos * 4);
+                Globalv.friSackopotato += Globalv.fpsSackOPotatos;
                 Globalv.priceSackopotato += Globalv.incpriceSacko;
                     label_FPS.Text = Globalv.FPS.ToString();
                     label_priceofsacko.Text = Globalv.priceSackopotato.ToString();
                     label_amtSacko.Text = Globalv.amtSackopotato.ToString();
-                Globalv.incpriceSacko += 3000;
+                Globalv.incpriceSacko += Globalv.incincpriceSacko;
                 }
                 else
                 {
@@ -536,13 +560,13 @@ namespace French_Fri_Clicker
                 {
                 Globalv.amtPotatocrate += 1;
                     Globalv.fri -= Globalv.pricePotatocrate;
-                    Globalv.FPS += 1200;
-                Globalv.friPotatocrate += 30;
+                    Globalv.FPS += (Globalv.fpsPotatoCrate * 40);
+                Globalv.friPotatocrate += Globalv.fpsPotatoCrate;
                 Globalv.pricePotatocrate += Globalv.incpricePotatocrate;
                     label_FPS.Text = Globalv.FPS.ToString();
                     label_pricePotatocrate.Text = Globalv.pricePotatocrate.ToString();
                     label_amtofPotatocrate.Text = Globalv.amtPotatocrate.ToString();
-                Globalv.incpricePotatocrate += 3000;
+                Globalv.incpricePotatocrate += Globalv.incincpricePotatocrate;
                 }
                 else
                 {
@@ -561,13 +585,13 @@ namespace French_Fri_Clicker
                 {
                 Globalv.amtPotatoshippingcrate += 1;
                     Globalv.fri -= Globalv.pricePotatoshippingboat;
-                    Globalv.FPS += 2500;
-                Globalv.friPotatoshippingboat += 500;
+                    Globalv.FPS += (Globalv.fpsPotatoShippingCrate * 5);
+                Globalv.friPotatoshippingboat += Globalv.fpsPotatoShippingCrate;
                 Globalv.pricePotatoshippingboat += Globalv.incpriceShippingboat;
                     label_FPS.Text = Globalv.FPS.ToString();
                     label_pricePotatoshippingboat.Text = Globalv.pricePotatoshippingboat.ToString();
                     label_amtofPotatoshippingboat.Text = Globalv.amtPotatoshippingcrate.ToString();
-                Globalv.incpriceShippingboat += 37500;
+                Globalv.incpriceShippingboat += Globalv.incincpriceShippingboat;
                 }
                 else
                 {
@@ -1004,6 +1028,47 @@ namespace French_Fri_Clicker
             SaveGame F13 = new SaveGame();
             F13.Show();
         }
-    }
-    }
 
+        private void button_powerupmenu_Click(object sender, EventArgs e)
+        {
+            //MessageBox.Show("Next Update");
+            Powerupmenu F14 = new Powerupmenu();
+            F14.Show();
+        }
+
+        private void label_fpsFarm_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click_3(object sender, EventArgs e)
+        {
+            Random rd = new Random();
+            Globalv.fri = rd.Next(100, 1000);
+            Globalv.FPS = rd.Next(1200, 10000);
+            
+        }
+
+        private void button_openstockmarket_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("In Beta");
+            //StockMarketpg1 F15 = new StockMarketpg1();
+            //F15.Show();
+        }
+
+        private void button_OpenAchivements_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Next Update");
+            //Powerupmenu F14 = new Powerupmenu();
+            //F14.Show();
+        }
+
+        private void button_openCasino_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Next Update");
+            //Powerupmenu F14 = new Powerupmenu();
+            //F14.Show();
+        }
+    }
+    }
+ 
