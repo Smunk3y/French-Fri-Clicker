@@ -22,13 +22,22 @@ namespace French_Fri_Clicker
        public static long justloadsave = 0;
        public static long upgradesbought = 0;
        public static long upgrademenu = 1;
+        public static long openhelp = 0;
 
         //Stocks
         public static long stockrefersh = 0;
-        public static long timersecs = 60;
+        public static long timersecs = 120;
         public static long Stockbuyvarvar = 1;
         public static long Stockbuyvar = 1;
         public static string stockamtbuy = "0";
+
+        //mcdons
+        public static  int mcdsLowRanbdom = 800;
+        public static  int mcdsHighRandom = 1600;
+        public static long mcdsCurrentPrice = 1234;
+        public static long mcdsLastPrice = 0;
+        public static long mcdsStockamt = 0;
+
 
         //timer values
         public static long timerpotatopotfps = 40;

@@ -107,9 +107,9 @@
             this.label_fris.ForeColor = System.Drawing.SystemColors.Control;
             this.label_fris.Location = new System.Drawing.Point(188, 113);
             this.label_fris.Name = "label_fris";
-            this.label_fris.Size = new System.Drawing.Size(127, 60);
+            this.label_fris.Size = new System.Drawing.Size(207, 60);
             this.label_fris.TabIndex = 89;
-            this.label_fris.Text = "V1.1.1";
+            this.label_fris.Text = "V2 Beta 1";
             this.label_fris.Click += new System.EventHandler(this.label_fris_Click);
             // 
             // Settingsmenu

@@ -143,12 +143,22 @@ namespace French_Fri_Clicker
             
             if(timecnt % 40 == 0)
             {
+
+                Random rd = new Random();
+             
                 Globalv.timersecs = Globalv.timersecs - 1;
 
                 if (Globalv.timersecs == 0)
                 {
                     Globalv.stockrefersh = 1;
-                    Globalv.timersecs = 60;
+                    Globalv.timersecs = 120;
+                }
+
+                //mcdonds part
+                if(Globalv.stockrefersh == 1)
+                {
+                    Globalv.mcdsLastPrice = Globalv.mcdsCurrentPrice;
+                    Globalv.mcdsCurrentPrice = rd.Next(Globalv.mcdsLowRanbdom, Globalv.mcdsHighRandom);
                 }
             }
 
@@ -1043,17 +1053,15 @@ namespace French_Fri_Clicker
 
         private void button1_Click_3(object sender, EventArgs e)
         {
-            Random rd = new Random();
-            Globalv.fri = rd.Next(100, 1000);
-            Globalv.FPS = rd.Next(1200, 10000);
+            
             
         }
 
         private void button_openstockmarket_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("In Beta");
-            //StockMarketpg1 F15 = new StockMarketpg1();
-            //F15.Show();
+            //MessageBox.Show("In Beta");
+            StockMarketpg1 F15 = new StockMarketpg1();
+            F15.Show();
         }
 
         private void button_OpenAchivements_Click(object sender, EventArgs e)

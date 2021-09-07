@@ -121,6 +121,9 @@
   <data name="Sold" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Sold1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="StockMarketDown" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Stock Market Down.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="FriMainbackround" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\FriMainbackround.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -133,22 +136,25 @@
   <data name="frenchfribackrounddonebuttonsextra" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\frenchfribackrounddonebuttonsextra.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="StockMarketUp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Stock Market Up.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Friesperclickmenubaby" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Friesperclickmenubaby.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Friespowerupmenu20000" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Friespowerupmenu20000.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Settingsmenu" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Settingsmenu.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Stock Market Down" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Stock Market Down.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Friespowerupmenu20000" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Friespowerupmenu20000.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Stock Market German" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Stock Market German.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="StockWalltetpag1onlu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\StockWalltetpag1onlu.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Stock Market Up" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Stock Market Up.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="StockMarkeFrenchbaby" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\StockMarkeFrenchbaby.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Stock Market Help" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Stock Market Help.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

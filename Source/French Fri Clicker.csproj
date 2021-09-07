@@ -107,11 +107,23 @@
       <DependentUpon>SaveGame.cs</DependentUpon>
     </Compile>
     <Compile Include="Savetest.cs" />
+    <Compile Include="StockHelp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StockHelp.Designer.cs">
+      <DependentUpon>StockHelp.cs</DependentUpon>
+    </Compile>
     <Compile Include="StockMarketpg1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="StockMarketpg1.Designer.cs">
       <DependentUpon>StockMarketpg1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StockWallet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StockWallet.Designer.cs">
+      <DependentUpon>StockWallet.cs</DependentUpon>
     </Compile>
     <Compile Include="xCheatmenu.cs">
       <SubType>Form</SubType>
@@ -191,8 +203,14 @@
     <EmbeddedResource Include="SaveGame.resx">
       <DependentUpon>SaveGame.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="StockHelp.resx">
+      <DependentUpon>StockHelp.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="StockMarketpg1.resx">
       <DependentUpon>StockMarketpg1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StockWallet.resx">
+      <DependentUpon>StockWallet.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="xCheatmenu.resx">
       <DependentUpon>xCheatmenu.cs</DependentUpon>
@@ -254,6 +272,9 @@
     <Content Include="Bitmap1.bmp" />
     <Content Include="Click image 450.png" />
     <Content Include="French Fri Test 1.ico" />
+    <None Include="Resources\Stock Market Help.bmp" />
+    <None Include="Resources\StockWalltetpag1onlu.bmp" />
+    <None Include="Resources\StockMarkeFrenchbaby.bmp" />
     <None Include="Resources\Stock Market Up.bmp" />
     <None Include="Resources\Stock Market German.bmp" />
     <None Include="Resources\Stock Market Down.bmp" />

@@ -146,7 +146,6 @@
             this.label_fpsFrenchfristand = new System.Windows.Forms.Label();
             this.label_fpsFrenchfritrain = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
             this.button_openstockmarket = new System.Windows.Forms.Button();
             this.button_OpenAchivements = new System.Windows.Forms.Button();
             this.button_openCasino = new System.Windows.Forms.Button();
@@ -1520,16 +1519,6 @@
             this.label4.TabIndex = 117;
             this.label4.Text = "12.5M";
             // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(1254, 601);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 118;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click_3);
-            // 
             // button_openstockmarket
             // 
             this.button_openstockmarket.BackColor = System.Drawing.Color.Transparent;
@@ -1584,7 +1573,6 @@
             this.Controls.Add(this.button_openCasino);
             this.Controls.Add(this.button_OpenAchivements);
             this.Controls.Add(this.button_openstockmarket);
-            this.Controls.Add(this.button1);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label_fpsFrenchfritrain);
             this.Controls.Add(this.label_fpsFrenchfristand);
@@ -1828,7 +1816,6 @@
         private System.Windows.Forms.Label label_fpsFrenchfristand;
         private System.Windows.Forms.Label label_fpsFrenchfritrain;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button_openstockmarket;
         private System.Windows.Forms.Button button_OpenAchivements;
         private System.Windows.Forms.Button button_openCasino;
